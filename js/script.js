@@ -70,8 +70,8 @@ for(i = 0; i < 10; i++){
 
 (function loop(){
     window.requestAnimationFrame(loop);
-    boxContainer.canvas.width = document.documentElement.clientHeight
-    boxContainer.canvas.height = document.documentElement.clientWidth
+    boxContainer.canvas.width = document.documentElement.clientWidth
+    boxContainer.canvas.height = document.documentElement.clientHeight
 
     for(i = 0; i < circleArray.length; i++){
         var circle = circleArray[i]
