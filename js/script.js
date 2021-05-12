@@ -1,4 +1,4 @@
-const speed = 2
+const speed = 5
 
 function Circle(x, y, r){
     this.x = x;
